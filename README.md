@@ -1,4 +1,4 @@
-![Screenshot 2025-03-21 034837](https://github.com/user-attachments/assets/2fb34fbb-7ca8-4958-849a-b23545734402)RecipeDekho 🍽️
+RecipeDekho 🍽️
 📌 Project Overview
 RecipeDekho is a MERN Stack application that allows users to explore recipes, add their own, and manage their favorite dishes. It integrates authentication using bcrypt & JSON Web Token (JWT) and supports file uploads via Multer.
 
