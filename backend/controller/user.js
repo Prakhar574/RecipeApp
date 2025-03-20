@@ -15,7 +15,7 @@ const userSignUp = async (req, res) => {
     const newUser = await User.create({
         email, password: hashPwd
     })
-    let token = jwt.sign({ email, id: newUser._id }, process.env.SECRET_KEY)
+    let token = jwt.sign({ email, id: newUser._id }, "Prakhar87667132r321")
     return res.status(200).json({ token, user:newUser })
 
 }
@@ -27,7 +27,7 @@ const userLogin = async (req, res) => {
     }
     let user = await User.findOne({ email })
     if (user && await bcrypt.compare(password, user.password)) {
-        let token = jwt.sign({ email, id: user._id }, process.env.SECRET_KEY)
+        let token = jwt.sign({ email, id: user._id }, "Prakhar87667132r321")
         return res.status(200).json({ token, user })
     }
     else {
