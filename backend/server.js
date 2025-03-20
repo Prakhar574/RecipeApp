@@ -14,6 +14,9 @@ app.use(express.static("public"))
 app.use("/",require("./routes/user"))
 app.use("/recipe",require("./routes/recipe"))
 
+app.get('/', (req, res) => {
+    res.send('Welcome to the API!'); 
+});
 app.listen(PORT,(err)=>{
     console.log(`app is listening on port ${PORT}`)
 })
