@@ -37,40 +37,17 @@ Axios (API Calls)
 🔹 Backend Setup
 1️⃣ Navigate to the backend folder:
 
-bash
-Copy
-Edit
 cd backend
 2️⃣ Install dependencies:
-
-bash
-Copy
-Edit
 npm install
 3️⃣ Run the server using Nodemon:
-
-bash
-Copy
-Edit
 nodemon server.js
 🔹 Frontend Setup
 1️⃣ Navigate to the frontend folder:
-
-bash
-Copy
-Edit
 cd frontend
 2️⃣ Install dependencies:
-
-bash
-Copy
-Edit
 npm install
 3️⃣ Run the frontend:
-
-bash
-Copy
-Edit
 npm run dev
 📝 Contributing
 Feel free to contribute by adding new features, fixing bugs, or improving the UI. 🚀
