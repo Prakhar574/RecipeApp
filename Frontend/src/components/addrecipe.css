@@ -1,24 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&display=swap');
 
 body {
-    background-color: #0a0f1e; /* Deep dark navy */
+    background-color: #0a0f1e; 
     color: #fff;
     font-family: 'Orbitron', sans-serif;
 }
 
-/* 🔥 Recipe Container */
+
 .recipe-container {
     max-width: 650px;
     margin: 120px auto 50px;
     padding: 25px;
-    background: rgba(10, 25, 47, 0.95); /* Dark navy translucent */
+    background: rgba(10, 25, 47, 0.95); 
     border-radius: 12px;
-    box-shadow: 0px 0px 15px 3px rgba(0, 191, 255, 0.8); /* Neon blue glow */
+    box-shadow: 0px 0px 15px 3px rgba(0, 191, 255, 0.8); 
     border: 2px solid cyan;
     text-align: center;
 }
 
-/* 🔥 Title */
 .recipe-title {
     font-size: 24px;
     font-weight: bold;
@@ -29,21 +28,19 @@ body {
     margin-bottom: 20px;
 }
 
-/* 🔥 Form */
 .recipe-form {
     display: flex;
     flex-direction: column;
     gap: 18px;
 }
 
-/* 🔥 Input Groups */
 .recipe-group {
     display: flex;
     flex-direction: column;
     text-align: left;
 }
 
-/* 🔥 Labels */
+
 .recipe-group label {
     font-size: 1rem;
     font-weight: bold;
@@ -52,11 +49,11 @@ body {
     margin-bottom: 5px;
 }
 
-/* 🔥 Inputs & Textareas */
+
 .recipe-input, .recipe-textarea {
     padding: 12px;
     font-size: 1rem;
-    background: #0d1b2a; /* Darker navy */
+    background: #0d1b2a; 
     border: 2px solid cyan;
     border-radius: 6px;
     color: white;
@@ -69,7 +66,6 @@ body {
     height: 120px;
 }
 
-/* 🔥 File Upload */
 .recipe-file {
     background: transparent;
     border: 2px solid cyan;
@@ -78,14 +74,13 @@ body {
     cursor: pointer;
 }
 
-/* 🔥 Focus Effects */
 .recipe-input:focus, .recipe-textarea:focus {
     border-color: #00eaff;
     box-shadow: 0 0 12px #00eaff;
     background: rgba(0, 255, 255, 0.1);
 }
 
-/* 🔥 Submit Button */
+
 .recipe-submit {
     background: cyan;
     color: black;
@@ -107,7 +102,6 @@ body {
     transform: scale(1.05);
 }
 
-/* ✅ Responsive Design */
 @media (max-width: 768px) {
     .recipe-container {
         width: 90%;

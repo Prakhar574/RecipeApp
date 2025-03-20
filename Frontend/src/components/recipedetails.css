@@ -1,24 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&display=swap');
 
 body {
-    background-color: #0a0f1e; /* Dark navy */
+    background-color: #0a0f1e; 
     color: #fff;
     font-family: 'Orbitron', sans-serif;
 }
 
-/* 🔥 Container */
 .recipe-details-container {
     max-width: 700px;
     margin: 80px auto;
     padding: 25px;
-    background: rgba(10, 25, 47, 0.95); /* Dark navy translucent */
+    background: rgba(10, 25, 47, 0.95); 
     border-radius: 12px;
     box-shadow: 0px 0px 15px 3px rgba(0, 191, 255, 0.8);
     border: 2px solid cyan;
     text-align: center;
 }
 
-/* 🔥 Profile */
+
 .recipe-profile {
     display: flex;
     align-items: center;
@@ -42,7 +41,6 @@ body {
     text-shadow: 0px 0px 8px cyan;
 }
 
-/* 🔥 Title */
 .recipe-title {
     font-size: 24px;
     font-weight: bold;
@@ -53,7 +51,6 @@ body {
     margin-bottom: 15px;
 }
 
-/* 🔥 Recipe Image */
 .recipe-cover-img {
     width: 100%;
     max-width: 300px;
@@ -64,7 +61,6 @@ body {
     margin-bottom: 20px;
 }
 
-/* 🔥 Recipe Content */
 .recipe-content {
     text-align: left;
     padding: 10px;
@@ -73,7 +69,7 @@ body {
     box-shadow: 0 0 12px cyan;
 }
 
-/* 🔥 Ingredients & Instructions */
+
 .recipe-ingredients h4, .recipe-instructions h4 {
     font-size: 20px;
     color: cyan;
@@ -99,7 +95,6 @@ body {
     color: white;
 }
 
-/* ✅ Responsive Design */
 @media (max-width: 768px) {
     .recipe-details-container {
         width: 90%;

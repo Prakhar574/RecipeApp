@@ -1,7 +1,7 @@
 import axios from 'axios'
 import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-import '../components/addrecipe.css' // Separate styling from public styles
+import '../components/addrecipe.css' 
 
 export default function AddFoodRecipe() {
     const [recipeData, setRecipeData] = useState({})

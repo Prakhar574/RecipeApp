@@ -1,7 +1,7 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
-import '../components/editRecipe.css' // Importing separate CSS for styling
+import '../components/editRecipe.css' 
 
 export default function EditRecipe() {
     const [recipeData, setRecipeData] = useState({})

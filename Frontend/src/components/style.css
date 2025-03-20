@@ -13,7 +13,7 @@ body {
     color: white;
 }
 
-/* 🔥 Main Section */
+
 .main {
     width: 80%;
     margin: 0 auto;
@@ -21,7 +21,7 @@ body {
     padding-top: 100px;
 }
 
-/* 🔥 Page Heading */
+
 .heading h1 {
     color: gold;
     font-size: 48px;
@@ -31,7 +31,7 @@ body {
     margin-bottom: 1.5rem;
 }
 
-/* 🔥 Search Bar */
+
 .search-bar {
     width: 400px;
     height: 40px;
@@ -49,7 +49,7 @@ body {
     opacity: 0.8;
 }
 
-/* 🔥 Container for Meals */
+
 .container {
     width: 80%;
     margin: 25px auto;
@@ -58,7 +58,7 @@ body {
     gap: 2rem;
 }
 
-/* 🔥 Meal Card */
+
 .card {
     width: 200px;
     border-radius: 1rem;
@@ -86,7 +86,7 @@ body {
     text-align: center;
 }
 
-/* 🔥 Recipe Content */
+
 .content img {
     width: 100%;
     height: 600px;
@@ -106,7 +106,7 @@ body {
     border-radius: 12px;
 }
 
-/* 🔥 Recipe Details Section */
+
 .recipe-details {
     width: 80%;
     margin: 3rem auto;
@@ -132,13 +132,12 @@ body {
     color: black;
 }
 
-/* 🔥 Video Section */
 .video {
     width: 80%;
     margin: 3rem auto;
 }
 
-/* 🔥 Numbering Boxes */
+
 .indexContainer {
     display: flex;
     margin: 2.5rem 0;

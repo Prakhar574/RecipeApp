@@ -6,18 +6,17 @@
   box-sizing: border-box;
   font-family: "Orbitron", sans-serif;
   transition: all 0.3s ease-in-out;
-  user-select: none;
+  
   scroll-behavior: smooth;
 }
 
-/* 🔥 Futuristic Background */
+
 body {
   background: radial-gradient(circle at top, black, navy);
   color: white;
   overflow-x: hidden;
 }
 
-/* 🟡 Header */
 header {
   width: 100vw;
   display: flex;
@@ -66,17 +65,23 @@ li a:hover {
   box-shadow: 0 0 20px gold;
 }
 
-/* 🔥 Animated Home Section */
+
 .home {
+  background-image: url('./assets/home2.jpg'); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  height: 100vh; 
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  padding-top: 120px;
-  text-align: center;
+  color: white; 
+  margin-bottom: 50px;
 }
 
 .home .left h1 {
+  text-align: center;
   font-size: 50px;
   font-weight: 900;
   text-transform: uppercase;
@@ -85,7 +90,9 @@ li a:hover {
   color: transparent;
   text-shadow: 2px 2px 20px rgba(255, 0, 0, 0.5);
 }
-
+.home .left h3{
+font-size: 21px;
+}
 .home button {
   background: linear-gradient(to right, red, orange);
   border: none;
@@ -97,6 +104,8 @@ li a:hover {
   cursor: pointer;
   overflow: hidden;
   transition: transform 0.3s ease-in-out;
+  margin-left: 500px;
+  margin-top: 20px;
 }
 
 .home button:hover {
@@ -147,7 +156,6 @@ li a:hover {
 }
 
 
-/* 🔥 Login Form */
 .modal {
   position: fixed;
   top: 50%;
@@ -163,7 +171,7 @@ li a:hover {
   z-index: 101;
 }
 
-/* 🔥 Form Inputs */
+
 .form input {
   width: 85%;
   padding: 12px;
@@ -195,7 +203,7 @@ li a:hover {
   box-shadow: 0px 0px 15px black;
 }
 
-/* 🔥 Backdrop */
+
 .backdrop {
   position: fixed;
   top: 0;
@@ -206,7 +214,7 @@ li a:hover {
   z-index: 100;
 }
 
-/* 🔥 Footer */
+
 .footer {
   width: 100%;
   background: rgba(0, 0, 0, 0.9);
@@ -218,6 +226,19 @@ li a:hover {
   color: white;
   border-top: 2px solid gold;
   box-shadow: 0px -4px 10px rgba(255, 215, 0, 0.5);
+}
+.login{
+  background-color: #ff7e5f; 
+  color: white;  
+  padding: 10px 20px; 
+  border-radius: 50px;  
+  cursor: pointer;  
+  transition: background-color 0.3s ease, transform 0.2s;
+  display: inline-block;  
+  font-weight: bold;
+  border: none;
+  text-align: center;
+  
 }
 
 .footer-container {
@@ -233,7 +254,7 @@ li a:hover {
   color: rgba(255, 215, 0, 0.9);
 }
 
-/* 🔥 Social Media Icons */
+
 .social-icons {
   display: flex;
   gap: 20px;
@@ -252,7 +273,7 @@ li a:hover {
   text-shadow: 0px 0px 12px gold;
 }
 
-/* 🔥 Active Link */
+
 .active {
   background: gold;
   color: black !important;
@@ -261,13 +282,75 @@ li a:hover {
   box-shadow: 0 0 15px gold;
 }
 
-/* 🔥 Headings */
 .head {
   text-align: center;
   font-weight: bolder;
+  margin-bottom: 30px;
 }
 
-/* 🔥 Responsive for Mobile */
+.testimonials {
+  text-align: center;
+  padding: 50px 20px;
+  background: rgba(10, 25, 47, 0.95); 
+  border-radius: 12px;
+  box-shadow: 0px 0px 15px 3px rgba(0, 191, 255, 0.8); 
+  border: 2px solid cyan;
+  max-width: 100%;
+  margin-top: 35px;
+}
+
+.testimonials-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: cyan;
+  text-transform: uppercase;
+  text-shadow: 0px 0px 12px cyan;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+  font-family: "Orbitron", sans-serif;
+  
+}
+
+.testimonials-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.testimonial {
+  background: #0d1b2a; 
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 191, 255, 0.5);
+  max-width: 300px;
+  text-align: center;
+  border: 2px solid cyan;
+  transition: transform 0.3s ease-in-out;
+}
+
+.testimonial:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px cyan;
+}
+
+.testimonial p {
+  font-size: 1.1rem;
+  color: white;
+
+  font-family: 'Orbitron', sans-serif;
+}
+.h3{
+  margin-bottom: 30px;
+}
+
+.testimonial span {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  color: cyan;
+  text-shadow: 0px 0px 8px cyan;
+}
 @media screen and (max-width: 768px) {
   .home {
     flex-direction: column;
@@ -285,4 +368,12 @@ li a:hover {
   .card-container {
     width: 90%;
   }
+  .testimonials {
+    width: 90%;
+    padding: 20px;
+}
+.testimonials-title {
+    font-size: 1.8rem;
+}
+
 }
