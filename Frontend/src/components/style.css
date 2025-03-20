@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.3s ease-in-out;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+/* 🔥 Main Section */
+.main {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+/* 🔥 Page Heading */
+.heading h1 {
+    color: gold;
+    font-size: 48px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-shadow: 0 0 15px gold;
+    margin-bottom: 1.5rem;
+}
+
+/* 🔥 Search Bar */
+.search-bar {
+    width: 400px;
+    height: 40px;
+    border: 2px solid gold;
+    outline: none;
+    border-radius: 1rem;
+    padding: 0.3rem 1rem;
+    background: black;
+    color: white;
+    font-size: 18px;
+}
+
+.search-bar::placeholder {
+    color: gold;
+    opacity: 0.8;
+}
+
+/* 🔥 Container for Meals */
+.container {
+    width: 80%;
+    margin: 25px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+}
+
+/* 🔥 Meal Card */
+.card {
+    width: 200px;
+    border-radius: 1rem;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 5px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px gold;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px gold;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.card h3 {
+    color: gold;
+    font-size: 20px;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* 🔥 Recipe Content */
+.content img {
+    width: 100%;
+    height: 600px;
+}
+
+.content .inner-content {
+    background: rgba(255, 255, 255, 0.9);
+    color: black;
+    font-size: 1.5rem;
+    padding: 2rem;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 5px 20px gray;
+    border-radius: 12px;
+}
+
+/* 🔥 Recipe Details Section */
+.recipe-details {
+    width: 80%;
+    margin: 3rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    color: black;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0px 5px 15px gray;
+}
+
+.ingredients,
+.instructions {
+    flex-basis: 50%;
+    text-align: justify;
+}
+
+.ingredients h4 {
+    margin-top: 1.5rem;
+    font-weight: bold;
+    color: black;
+}
+
+/* 🔥 Video Section */
+.video {
+    width: 80%;
+    margin: 3rem auto;
+}
+
+/* 🔥 Numbering Boxes */
+.indexContainer {
+    display: flex;
+    margin: 2.5rem 0;
+}
+
+.numBox {
+    width: 50px;
+    height: 40px;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gold;
+    margin: 0 5px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px gold;
+}
