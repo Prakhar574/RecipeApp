@@ -62,3 +62,12 @@ It integrates **authentication** using **bcrypt & JSON Web Token (JWT)** and sup
 1️⃣ Navigate to the backend folder:  
 ```bash
 cd backend
+npm install  
+nodemon server.js
+### 🔹 Frontend Setup  
+
+1️⃣ Navigate to the Frontend folder:  
+```bash
+cd frontend
+npm install  
+npm run dev
