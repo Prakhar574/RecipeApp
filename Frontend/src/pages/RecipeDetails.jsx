@@ -20,7 +20,7 @@ export default function RecipeDetails() {
                 <h3 className='recipe-title'>{recipe.title}</h3>
 
                 {/* 🔥 Recipe Image */}
-                <img src={`http://localhost:5000/images/${recipe.coverImage}`} alt="Recipe" className='recipe-cover-img' />
+                <img src={`https://recipe-app-nu-snowy.vercel.app/images/${recipe.coverImage}`} alt="Recipe" className='recipe-cover-img' />
 
                 {/* 🔥 Recipe Content */}
                 <div className='recipe-content'>
