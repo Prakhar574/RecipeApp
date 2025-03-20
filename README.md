@@ -11,16 +11,22 @@ RecipeDekho is a MERN Stack application that allows users to explore recipes, ad
 
 🚀 Features & Functionalities
 🍔 Module 1: Meal Search & API Integration
-Uses TheMealDB API to fetch recipes.
-Search Recipes by alphabet or name.
-View Details of recipes, including ingredients & instructions.
+✅ Uses TheMealDB API to fetch recipes.
+✅ Search Recipes by alphabet or name.
+✅ View Details of recipes, including ingredients & instructions.
+
 🔑 Authentication (Login & Register)
-Secure User Authentication using bcrypt & JWT.
-Register & Login securely.
+✅ Secure User Authentication using bcrypt & JWT.
+✅ Register & Login securely.
+
 👨‍🍳 User-Generated Recipes
-Add Custom Recipes with an image upload (Multer).
-Edit & Delete own recipes.
+✅ Add Custom Recipes with an image upload (Multer).
+✅ Edit & Delete own recipes.
+
 ❤️ Favorites & Interactions
+✅ Like & Save favorite recipes.
+
+
 Like & Save favorite recipes.
 🛠️ Tech Stack
 🔹 Backend (Node.js & Express.js)
